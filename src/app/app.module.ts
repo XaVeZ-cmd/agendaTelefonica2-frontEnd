@@ -15,6 +15,10 @@ import { MatIconModule } from '@angular/material/icon';
 import { HomeComponent } from './views/components/home/home.component';
 import {MatCardModule} from '@angular/material/card';
 import { ContatosReadComponent } from './views/components/contatos/contatos-read/contatos-read.component';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatTableModule} from '@angular/material/table';
+import {MatPaginatorModule} from '@angular/material/paginator';
+
 
 @NgModule({
   declarations: [
@@ -34,7 +38,10 @@ import { ContatosReadComponent } from './views/components/contatos/contatos-read
     MatMenuModule,
     MatListModule,
     MatIconModule,
-    MatCardModule
+    MatCardModule,
+    MatFormFieldModule,
+    MatTableModule,
+    MatPaginatorModule
   ],
   providers: [],
   bootstrap: [AppComponent]

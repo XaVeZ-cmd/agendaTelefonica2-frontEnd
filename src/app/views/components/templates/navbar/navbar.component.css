@@ -8,9 +8,15 @@
 
 .sidenav {
     background-color: #857d7d;
+    border-radius: 20px;
 }
 
 button {
     border: 0;
     background-color: #857d7d;
+    border-radius: 5px;
+}
+
+a {
+    border-radius: 5px;
 }
