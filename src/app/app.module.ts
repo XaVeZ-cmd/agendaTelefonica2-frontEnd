@@ -12,12 +12,8 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatMenuModule} from '@angular/material/menu';
 import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
-
-
-
-
-
-
+import { HomeComponent } from './views/components/home/home.component';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -25,6 +21,7 @@ import { MatIconModule } from '@angular/material/icon';
     HeaderComponent,
     FooterComponent,
     NavbarComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
@@ -34,7 +31,8 @@ import { MatIconModule } from '@angular/material/icon';
     MatSidenavModule,
     MatMenuModule,
     MatListModule,
-    MatIconModule
+    MatIconModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
