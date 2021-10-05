@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './views/components/templates/header/header.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { FooterComponent } from './views/components/templates/footer/footer.component';
 
 
 
@@ -15,6 +16,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
   declarations: [
     AppComponent,
     HeaderComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
