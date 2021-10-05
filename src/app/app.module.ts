@@ -14,6 +14,7 @@ import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
 import { HomeComponent } from './views/components/home/home.component';
 import {MatCardModule} from '@angular/material/card';
+import { ContatosReadComponent } from './views/components/contatos/contatos-read/contatos-read.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import {MatCardModule} from '@angular/material/card';
     FooterComponent,
     NavbarComponent,
     HomeComponent,
+    ContatosReadComponent,
   ],
   imports: [
     BrowserModule,
