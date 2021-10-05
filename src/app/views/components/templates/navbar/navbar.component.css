@@ -1,0 +1,14 @@
+.navbar {
+    height: 80%;
+    width: 100%;
+    background-color: #D2B48C;
+}
+
+.sidenav {
+    background-color: #857d7d;
+}
+
+button {
+    border: 0;
+    background-color: #857d7d;
+}

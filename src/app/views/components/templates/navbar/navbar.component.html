@@ -1,0 +1,25 @@
+<mat-drawer-container class="navbar" autosize>
+    <mat-drawer #drawer class="sidenav" mode="side">
+        <mat-nav-list class="nav-list">
+            <a mat-list-item routerLink="/">
+                <i class="material-icons">home</i>Home
+            </a>
+            <a mat-list-item routerLink="contatos">
+                <i class="material-icons">contact_page</i>Agenda de Contatos
+            </a>
+            <a mat-list-item routerLink="/">
+                <i class="material-icons">calculate</i>Calculadora
+            </a>
+            <a mat-list-item routerLink="/">
+                <i class="material-icons">savings</i>Finanças
+            </a>
+        </mat-nav-list>
+    </mat-drawer>
+    <div class="sidenav-content">
+        <button mat-icon-button (click)="drawer.toggle()">
+          <mat-icon>view_headline</mat-icon>Menu
+        </button>
+        <!-- renderiza dentro da propria tela -->
+        <router-outlet></router-outlet>
+    </div>
+</mat-drawer-container>
